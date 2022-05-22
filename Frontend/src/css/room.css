@@ -1,0 +1,38 @@
+.jumbotron {
+    /* background: linear-gradient(to right, rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)), url('https://image.freepik.com/free-vector/interior-living-room-with-sofa_107791-696.jpg') center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    object-fit: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .room {
+      margin: 2rem 0;
+  }
+
+  .room h1 {
+      margin: 2rem 0;
+      border-bottom: 1px solid #FF0000;
+      text-align: center;
+  }
+
+.room-info2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0.5rem;
+    flex-wrap: wrap;
+}
+
+.cards-group2 {
+    margin: 2rem;
+}
+
+.room-info2 .cards-group2 span {
+    color: orange;
+}

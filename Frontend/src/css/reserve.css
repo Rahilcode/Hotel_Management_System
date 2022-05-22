@@ -1,0 +1,46 @@
+.reserve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.re-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    margin: 0.4rem;
+}
+
+.re-img {
+    flex: 1;
+    margin: 1rem;
+}
+
+.re-form h1 {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.rform-item {
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.rform-item label {
+    display: block;
+}
+
+.rform-item input, .rform-item select {
+    width: 30vw;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.2rem;
+    margin: 1rem 0.5rem;
+}

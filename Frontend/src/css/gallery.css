@@ -1,0 +1,21 @@
+.gallery {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.gallery h1 {
+    border-bottom: 1px solid #FF0000;
+    margin: 1rem 0;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.photos img {
+    width: 30%;
+    margin: 1rem;
+}

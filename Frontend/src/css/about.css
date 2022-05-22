@@ -1,0 +1,60 @@
+.jumbotron {
+    /* background: linear-gradient(to right, rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)), url('https://image.freepik.com/free-photo/type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer_146671-18728.jpg') center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    object-fit: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-info {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin: 1.2rem 0;
+    overflow: hidden;
+  }
+
+  .about-info-img {
+    flex: 1;
+    width: 50%;
+    margin: 1rem 0rem;
+    object-fit: cover;
+  }
+  .about-info-img img{
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+
+  .about-info-info {
+      flex: 1;
+      padding: 0.5rem;
+      margin-left: 1rem;
+  }
+
+  .about-info-info h2 {
+      color: black;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid gray;
+  }
+
+  .staff {
+      margin: 1rem 0;
+  }
+
+  .staff h1 {
+      margin: 2rem 0;
+      text-align: center;
+      border-bottom: 1px solid lightgray;
+  }
+
+  .card {
+      text-align: center;
+  }

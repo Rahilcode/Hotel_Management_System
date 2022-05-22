@@ -1,0 +1,332 @@
+.navbarm {
+  margin-left: 5rem;
+}
+
+.nav-item {
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.nav-item .active  {
+  transition: all .02s ease-in-out;
+}
+
+.nav-item .active:hover {
+  transform: scale(1.1);
+  color: #FF0000;
+  background-color: #FF0000;
+}
+.cred .active  {
+  transition: all .02s ease-in-out;
+}
+
+.cred .active:hover {
+  transform: scale(1.1);
+  color: teal;
+  background-color: teal;
+}
+
+.cred {
+  display: inline-flex;
+  margin-left: 5rem;
+}
+
+.jumbotron {
+  background: linear-gradient(to right, rgba(0,0,0,0.4),
+  rgba(0,0,0,0.4)), url('https://cdn.pixabay.com/photo/2014/07/05/08/21/pool-384573__480.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  object-fit: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jheading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jhead1 {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.jhead2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.jlogo {
+  text-align: center;
+  color: #FF0000;
+}
+
+.middle-info {
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.2rem 0;
+  overflow: hidden;
+}
+
+.leftinfo {
+  flex: 1;
+  /* padding: 0.5rem; */
+  margin-left: 0.5rem;
+}
+
+.leftinfo button {
+  /* border: 1px solid white;
+  color: white;
+  background-color: #F7EA00;
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin: 1rem 0; */
+}
+
+.mid-link {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.rightinfo {
+  flex: 1;
+  width: 50%;
+  margin: 1rem 0rem;
+  object-fit: cover;
+}
+
+.rightinfo img {
+  width: 99%;
+  border-radius: 15px;
+}
+
+
+.card {
+  width: 20rem;
+  background-color: #EEEEEE;
+}
+
+.rooms-info {
+  text-align: center;
+  margin: 3rem 0.5rem;
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: all .2s ease-in-out;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.cards-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.rooms-info button {
+  color: white;
+  /* background-color: #F7EA00; */
+  /* border: 1px solid white; */
+  border-radius: 8px;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  margin-left: 1.2rem;
+}
+
+.rooms-info button .arrow {
+  margin-left: 0.2rem;
+}
+
+.reviews-container {
+  text-align: center;
+  background-color: #EEEEEE;
+  margin-top: 1rem;
+  background: linear-gradient(to right, rgba(0,0,0,0.6),
+  rgba(0,0,0,0.6)), url('https://image.freepik.com/free-vector/rain-city-street-with-houses-road-with-pedestrian-crosswalk-traffic-lights_107791-5170.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.reviews-container h1 {
+  color: #FF0000;
+  border-bottom: 1px solid #FF0000;
+}
+
+.review-card {
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+}
+
+.para-img {
+  display: flex;
+}
+
+.review-card img {
+  width: 20%;
+  height: 20%;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  color: white;
+  padding: 2rem;
+}
+
+.footerwrap {
+  background-color: rgb(31, 29, 29);
+
+}
+
+.footer {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstcol, .secondcol {
+  flex: 1;
+}
+
+.footer .firstcol ul { 
+  list-style: none;
+  color: rgba(255,255,255,.55);
+  margin: 0 2rem;
+}
+.footer .firstcol ul li{ 
+  margin: 1rem 0;
+}
+
+.footer .firstcol ul li:hover{ 
+  cursor: pointer;
+  color: white;
+}
+.footer .secondcol ul { 
+  list-style: none;
+  color: white;
+  margin: 0 2rem;
+}
+
+.footer .secondcol ul li{ 
+  margin: 1rem 0;
+}
+.footer .secondcol ul li p { 
+  list-style: none;
+  color: rgba(255,255,255,.55);
+  margin: 0 2rem;
+}
+.footer .secondcol ul li i { 
+  margin: 1rem;
+  color: orange;
+}
+
+.thirdcol {
+  flex: 0.5;
+}
+.thirdcol img {
+  width: 70%;
+  height: 70%;
+}
+
+.foot {
+  color: rgba(255,255,255,.55);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0,0,0,0.6),
+  rgba(0,0,0,0.6)), url('https://image.freepik.com/free-photo/large-pool-with-umbrellas-hammocks_1203-182.jpg') center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 30vh;
+  background-size: cover;
+  color: white;
+  margin-top: 1rem;
+}
+
+.reg h2 {
+  flex: 1;
+  margin: 0.5rem 1rem;
+}
+
+.reg-btn {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.reg-btn:hover {
+  color: #FF0000;
+}
+
+.reg button {
+  flex: 0.3;
+  margin: 0.5rem 2.5rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 900;
+  border-radius: 12px;
+  width: 20%;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.reg button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: white;
+  color: #FF0000;
+}
+
+
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  margin: 1rem 0;
+  background-color: #EEEEEE;
+}
+
+.service {
+  text-align: center;
+  transform: all .4s ease-in-out;
+}
+.service:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #FF0000;
+}
+.service h3 i {
+  color: orange;
+  font-size: xx-large;
+}
